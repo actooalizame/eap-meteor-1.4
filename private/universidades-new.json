@@ -1,0 +1,506 @@
+[
+    {
+        "name": "Pontificia Universidad Católica de Chile",
+        "slug": "Pontificia Universidad Catolica de Chile",
+        "address": "Avenida Libertador Bernardo O’Higgins 340, Santiago.",
+        "website": "www.uc.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Pontificia Universidad Católica de Valparaíso",
+        "slug": "Pontificia Universidad Catolica de Valparaiso",
+        "address": "Avenida Brasil 2950, Valparaíso.",
+        "website": "www.pucv.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Academia de Humanismo Cristiano",
+        "slug": "Universidad Academia de Humanismo Cristiano",
+        "address": "Condell 343, Providencia.",
+        "website": "www.academia.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Adolfo Ibáñez",
+        "slug": "Universidad Adolfo Ibanez",
+        "address": "Av. Diagonal las Torres 2640, Peñalolén. Santiago.",
+        "website": "www.uai.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Adventista de Chile",
+        "slug": "Universidad Adventista de Chile",
+        "address": "Las Mariposas, Km.12, Chillán.",
+        "website": "www.unach.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Alberto Hurtado",
+        "slug": "Universidad Alberto Hurtado",
+        "address": "Almirante Barroso 6, Santiago.",
+        "website": "www.uahurtado.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Arturo Prat",
+        "slug": "Universidad Arturo Prat",
+        "address": "Avenida Arturo Prat 2120, Iquique.",
+        "website": "www.unap.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Austral de Chile",
+        "slug": "Universidad Austral de Chile",
+        "address": "Independencia 641, Valdivia.",
+        "website": "www.uach.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Autónoma de Chile",
+        "slug": "Universidad Autonoma de Chile",
+        "address": "Avenida Alemania 01090, Temuco.",
+        "website": "www.uas.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Bernardo O Higgins",
+        "slug": "Universidad Bernardo O Higgins",
+        "address": "Avenida Viel 1497, Santiago.",
+        "website": "www.ubo.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Bolivariana",
+        "slug": "Universidad Bolivariana",
+        "address": "Huérfanos 2917, Santiago.",
+        "website": "www.ubolivariana.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Católica Cardenal Raúl Silva Henríquez",
+        "slug": "Universidad Catolica Cardenal Raul Silva Henriquez",
+        "address": "General Jofré 462, Santiago.",
+        "website": "www.ucsh.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Católica de La Santísima Concepción",
+        "slug": "Universidad Catolica de La Santisima Concepcion",
+        "address": "Caupolicán 491, Concepción.",
+        "website": "www.ucsc.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Católica de Temuco",
+        "slug": "Universidad Catolica de Temuco",
+        "address": "Avenida Alemania 0211, Temuco.",
+        "website": "www.uct.cl/admision",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Católica del Maule",
+        "slug": "Universidad Catolica del Maule",
+        "address": "Avenida San Miguel 3605, Talca.",
+        "website": "www.ucm.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Católica del Norte",
+        "slug": "Universidad Catolica del Norte",
+        "address": "Avenida Angamos 0610, Antofagasta.",
+        "website": "www.ucn.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Central de Chile",
+        "slug": "Universidad Central de Chile",
+        "address": "Toesca 1783, Santiago.",
+        "website": "www.ucentral.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Chileno - Británica de Cultura",
+        "slug": "Universidad Chileno - Britanica de Cultura",
+        "address": "Santa Lucía 124, Santiago Centro.",
+        "website": "www.ubritanica.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de Aconcagua",
+        "slug": "Universidad de Aconcagua",
+        "address": "Av. Apoquindo 4001 Of. 204 Las Condes - Santiago.",
+        "website": "www.uac.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de Antofagasta",
+        "slug": "Universidad de Antofagasta",
+        "address": "Avenida Angamos 601, Antofagasta.",
+        "website": "www.uantof.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de Arte y Ciencias Sociales, ARCIS",
+        "slug": "Universidad de Arte y Ciencias Sociales, ARCIS",
+        "address": "Libertad 53, Santiago.",
+        "website": "admision.universidadarcis.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de Artes, Ciencias y Comunicación, UNIACC",
+        "slug": "Universidad de Artes, Ciencias y Comunicacion, UNIACC",
+        "address": "Avenida Salvador 1200, Providencia.",
+        "website": "www.uniacc.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de Atacama",
+        "slug": "Universidad de Atacama",
+        "address": "Avenida Copayapu 485, Copiapó.",
+        "website": "www.uda.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de Chile",
+        "slug": "Universidad de Chile",
+        "address": "Avenida Libertador Bernardo O’higgins 1058, Santiago.",
+        "website": "www.uchile.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de Ciencias de la Informática, UCINF",
+        "slug": "Universidad de Ciencias de la Informatica, UCINF",
+        "address": "Avenida Pedro de Valdivia 641, Providencia.",
+        "website": "www.ucinf.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de Concepción",
+        "slug": "Universidad de Concepcion",
+        "address": "Víctor Lamas 1290, Concepción.",
+        "website": "www.udec.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de La Frontera",
+        "slug": "Universidad de La Frontera",
+        "address": "Avenida Francisco Salazar 01145, Temuco.",
+        "website": "www.ufro.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de La Serena",
+        "slug": "Universidad de La Serena",
+        "address": "Raúl Bitrán Nacharay S/N, La Serena.",
+        "website": "www.userena.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de Las Américas",
+        "slug": "Universidad de Las Americas",
+        "address": "Avenida Manuel Montt 948, Providencia.",
+        "website": "www.uamericas.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de Los Andes",
+        "slug": "Universidad de Los Andes",
+        "address": "Avenida San Carlos de Apoquindo 2200, Las Condes.",
+        "website": "www.uandes.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de Los Lagos",
+        "slug": "Universidad de Los Lagos",
+        "address": "Avenida Fuchslocher 1305, Osorno.",
+        "website": "www.ulagos.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de Magallanes",
+        "slug": "Universidad de Magallanes",
+        "address": "Avenida Bulnes 01855, Punta Arenas.",
+        "website": "www.umag.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de Playa Ancha de Ciencias de la Educación",
+        "slug": "Universidad de Playa Ancha de Ciencias de la Educacion",
+        "address": "Avenida Playa Ancha 850, Valparaíso.",
+        "website": "www.upla.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de Santiago de Chile",
+        "slug": "Universidad de Santiago de Chile",
+        "address": "Avenida Libertador Bernardo O’higgins 3363, Estación Central.",
+        "website": "www.usach.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de Talca",
+        "slug": "Universidad de Talca",
+        "address": "2 Norte 685, Talca.",
+        "website": "www.admisionutalca.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de Tarapacá",
+        "slug": "Universidad de Tarapaca",
+        "address": "General Velásquez 1775, Arica.",
+        "website": "www.uta.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de Valparaíso",
+        "slug": "Universidad de Valparaiso",
+        "address": "Avenida Errázuriz 2190, Valparaíso.",
+        "website": "www.uv.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad de Viña del Mar",
+        "slug": "Universidad de Vina del Mar",
+        "address": "Diego Portales 90, Viña Del Mar.",
+        "website": "www.uvm.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad del Bío-Bío",
+        "slug": "Universidad del Bio-Bio",
+        "address": "Avenida Collao 1202, Concepción.",
+        "website": "www.ubiobio.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad del Desarrollo",
+        "slug": "Universidad del Desarrollo",
+        "address": "Av. Las Condes 12438, Lo Barnechea.",
+        "website": "www.udd.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad del Pacífico",
+        "slug": "Universidad del Pacifico",
+        "address": "Avenida Las Condes 11121, Las Condes.",
+        "website": "www.upacifico.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Diego Portales",
+        "slug": "Universidad Diego Portales",
+        "address": "Avda. Manuel Rodríguez Sur 361.",
+        "website": "www.udp.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Finis Terrae",
+        "slug": "Universidad Finis Terrae",
+        "address": "Avenida Pedro de Valdivia 1509, Providencia.",
+        "website": "www.uft.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Gabriela Mistral",
+        "slug": "Universidad Gabriela Mistral",
+        "address": "Av. Ricardo Lyon 1177, Providencia - Santiago.",
+        "website": "www.ugm.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Iberoamericana de Ciencias y Tecnología UNICIT",
+        "slug": "Universidad Iberoamericana de Ciencias y Tecnologia UNICIT",
+        "address": "Padre Miguel de Olivares 1620, Santigo.",
+        "website": "www.unicit.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Internacional SEK",
+        "slug": "Universidad Internacional SEK",
+        "address": "José Arrieta 10000, Peñalolen.",
+        "website": "www.uisek.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Los Leones",
+        "slug": "Universidad Los Leones",
+        "address": "Arturo Prat 285, Santiago.",
+        "website": "www.uleones.com",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Mayor",
+        "slug": "Universidad Mayor",
+        "address": "Avenida Américo Vespucio Sur 357, Las Condes.",
+        "website": "www.umayor.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Metropolitana de Ciencias de la Educación UMCE",
+        "slug": "Universidad Metropolitana de Ciencias de la Educacion UMCE",
+        "address": "Avenida José Pedro Alessandri 774, Santiago.",
+        "website": "www.umce.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Nacional Andrés Bello",
+        "slug": "Universidad Nacional Andres Bello",
+        "address": "República 237, Santiago.",
+        "website": "www.unab.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Pedro de Valdivia",
+        "slug": "Universidad Pedro de Valdivia",
+        "address": "Avenida Tobalaba 1275, Providencia.",
+        "website": "www.upv.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad San Sebastián",
+        "slug": "Universidad San Sebastian",
+        "address": "General Cruz Nº 1577. Concepción.",
+        "website": "www.uss.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Santo Tomás",
+        "slug": "Universidad Santo Tomas",
+        "address": "Av.Ejército 146 Barrio Universitario, Santiago.",
+        "website": "www.santotomas.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Técnica Federico Santa María",
+        "slug": "Universidad Tecnica Federico Santa Maria",
+        "address": "Avenida España 1680, Valparaíso.",
+        "website": "www.usm.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Tecnológica de Chile - INACAP",
+        "slug": "Universidad Tecnologica de Chile - INACAP",
+        "address": "Brown Norte 450, Providencia.",
+        "website": "www.inacap.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    },
+    {
+        "name": "Universidad Tecnológica Metropolitana UTEM",
+        "slug": "Universidad Tecnologica Metropolitana UTEM",
+        "address": "Dieciocho 161, Santiago.",
+        "website": "www.utem.cl",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0
+    }
+]

@@ -1,0 +1,29 @@
+<template name="searchSchoolsNew">
+  <div class="">
+        {{> esInput index="schools" class="form-control" placeholder="Busca Universidades" id="searchSchools"}}
+      </div>
+
+    <div class="row">
+
+      <div class="col-md-offset-1 col-md-9">
+      <div class="list-group searchResults">
+        {{#esEach index="schools" id="searchSchools"}}
+        
+          <div class="list-group-item">
+            <h5 class="blue"><a href="/{{link}}/{{_id}}"><strong>{{name}}</strong></a></h5>
+            
+          </div>
+        
+        {{/esEach}}
+      </div>
+        {{> esLoadMoreButton class="btn btn-sm btn-success" content="Ver más" index="schools" id="searchSchools"}}
+        {{#ifEsHasNoResults index="schools" id="searchSchools"}}
+        <h5 class="no-results">No hay resultados!</h5>
+        {{/ifEsHasNoResults}}
+        {{#ifEsIsSearching index="schools" id="searchSchools"}}
+        <h5>Buscando...</h5>
+        {{/ifEsIsSearching}}
+      </div>
+    </div>
+
+</template>

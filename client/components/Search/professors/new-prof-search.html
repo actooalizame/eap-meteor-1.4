@@ -1,0 +1,102 @@
+<template name="searchProfessorsNew">
+ 
+
+    <div class="row">
+      {{#if hasSession}}
+      <div class="search-input col-sm-7">
+        {{> esInput index="schoolProfessors" class="form-control" placeholder="Busca profesores" id="searchProfessors"}}
+      </div>
+      <form class="filter-professors">
+        <div class="col-sm-5">
+          <select class="form-control filter-select stackable" name="university">
+            <option value=""><p>En: {{university}}</p></option>
+            <option>Pontificia Universidad Católica de Chile</option>
+            <option>Universidad de Chile</option>
+            <option>Universidad Nacional Andrés Bello</option>
+            <option>Universidad de Los Andes</option>
+            <option>Universidad Adolfo Ibáñez</option>
+            <option>Universidad Diego Portales</option>
+            <option>Universidad Mayor</option>
+            <option>Universidad Arturo Prat</option>
+            <option>Universidad San Sebastián</option>
+            <option>Universidad Católica de La Santísima Concepción</option>
+            <option>Pontificia Universidad Católica de Valparaíso</option>
+            <option>Universidad Gabriela Mistral</option>
+            <option>Universidad Finis Terrae</option>
+            <option>Universidad del Desarrollo</option>
+          </select>   
+        </div>
+        <!--<div class="col-sm-3">      
+          <button type="submit" class="btn btn-success btn-mini">Filtrar</button>
+        </div>-->
+      </form>
+      <button class="btn btn-sm btn-info clear-session center-block">Borrar Filtro</button>
+      <div class="col-xs-10 col-xs-offset-1 col-sm-5 list-group filtered-results">
+        {{#esEach index="schoolProfessors" id="searchProfessors"}}
+        <div class="">
+          <div class="list-group-item">
+            <h5 class="black"><a href="/profesor/{{_id}}"><strong>{{name}}</strong></a></h5>
+            <h5 class="blue">{{department}}</h5>
+          </div>
+        </div>
+        {{/esEach}}
+        {{> esLoadMoreButton class="btn btn-sm btn-success center-block" content="Ver más" index="schoolProfessors" id="searchProfessors"}}
+        {{#ifEsHasNoResults index="schoolProfessors" id="searchProfessors"}}
+        <div class="no-results"><h4>No hay resultados!</h4></div>
+        {{/ifEsHasNoResults}}
+        {{#ifEsIsSearching index="schoolProfessors" id="searchProfessors"}}
+        <div>Buscando...</div>
+        {{/ifEsIsSearching}}
+      </div>
+
+      {{else}}
+
+      <div class="search-input col-sm-7">
+        {{> esInput index="professors" class="form-control" placeholder="Busca profesores" id="searchProfessors"}}
+      </div>
+      <form class="filter-professors">
+        <div class="col-sm-5">
+          <select class="form-control filter-select stackable" name="university">
+            <option value="">Elige universidad</option>
+            <option>Pontificia Universidad Católica de Chile</option>
+            <option>Universidad de Chile</option>
+            <option>Universidad Nacional Andrés Bello</option>
+            <option>Universidad de Los Andes</option>
+            <option>Universidad Adolfo Ibáñez</option>
+            <option>Universidad Diego Portales</option>
+            <option>Universidad Mayor</option>
+            <option>Universidad Arturo Prat</option>
+            <option>Universidad San Sebastián</option>
+            <option>Universidad Católica de La Santísima Concepción</option>
+            <option>Pontificia Universidad Católica de Valparaíso</option>
+            <option>Universidad Gabriela Mistral</option>
+            <option>Universidad Finis Terrae</option>
+            <option>Universidad del Desarrollo</option>
+          </select>   
+        </div>
+      
+      </form>
+      <div class="col-xs-10 col-xs-offset-1 col-sm-5 list-group">
+        {{#esEach index="professors" id="searchProfessors"}}
+        <div class="">
+          <div class="list-group-item">
+            <h5 class="black"><a href="/profesor/{{_id}}"><strong>{{name}}</strong></a></h5>
+            <h5 class="blue">{{schoolName}}</h5>
+            <h6 class="black">{{department}}</h6>
+          </div>
+        </div>
+        {{/esEach}}      
+        {{> esLoadMoreButton class="btn btn-sm btn-success center-block" content="Ver más" index="professors" id="searchProfessors"}}
+        {{#ifEsHasNoResults index="professors" id="searchProfessors"}}
+        <div class="no-results"><h4>No hay resultados!</h4></div>
+        {{/ifEsHasNoResults}}
+        {{#ifEsIsSearching index="professors" id="searchProfessors"}}
+        <div>Buscando...</div>
+        {{/ifEsIsSearching}}
+      </div>
+      {{/if}}
+    </div>
+  
+ 
+
+</template>

@@ -1,0 +1,38 @@
+<template name="searchBoxProfessors">
+	<div class="box-container">
+		<div class="form-group">
+		{{> EasySearch.Input attributes=inputAttributes index=professorsIndex }}
+	  </div>
+	  {{#EasySearch.IfInputEmpty index=professorsIndex}}
+	  	<div class="hidden">hola</div>
+		  {{else}}
+		  	{{#if professorsIndex}}
+		  		<ul class="list-group searchResults">
+				    {{#EasySearch.Each index=professorsIndex }}
+				    <li class="list-group-item">
+				    	<h4><a href="/profesor/{{__originalId}}">{{name}}</a></h4>
+				    	<h5>{{schoolName}}</h5>
+				    	<p>{{department}}</p>
+				    </li>
+				    {{/EasySearch.Each}}
+				  </ul>
+				  {{#EasySearch.IfSearching index=professorsIndex }}
+				    <h5>Buscando...</h5>
+				    {{else}}
+				    {{#EasySearch.IfNoResults index=professorsIndex}}
+				  	<div class="searchResults center-block">
+					    <h4 class="no-results">Sin resultados...</h4>
+					  </div>
+					  {{/EasySearch.IfNoResults}}
+				  {{/EasySearch.IfSearching }}
+		  	{{/if}}
+
+		 		
+		{{/EasySearch.IfInputEmpty}}
+
+	  
+
+	  	
+	</div>
+
+</template>

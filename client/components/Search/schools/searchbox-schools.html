@@ -1,0 +1,30 @@
+<template name="searchBoxSchools">
+	<div class="box-container">
+		<div class="form-group">
+		{{> EasySearch.Input attributes=inputAttributes index=schoolsIndex }}
+	  </div>
+	  {{#EasySearch.IfInputEmpty index=schoolsIndex}}
+	  	
+		  {{else}}
+		  	{{#if schoolsIndex}}
+		  		<ul class="list-group searchResults">
+				    {{#EasySearch.Each index=schoolsIndex }}
+				    <li class="list-group-item">
+				    	<h4><a href="#">{{name}}</a></h4>
+				    	
+				    </li>
+				    {{/EasySearch.Each}}
+				  </ul>
+		  	{{/if}}
+		  	<div class="searchResults">
+			  	{{#EasySearch.IfNoResults index=schoolsIndex}}
+				    <h4 class="no-results">Sin resultados...</h4>
+				  {{/EasySearch.IfNoResults}}
+			  </div>
+		{{/EasySearch.IfInputEmpty}}
+	  
+
+	  	
+	</div>
+
+</template>

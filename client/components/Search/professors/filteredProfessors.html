@@ -1,0 +1,111 @@
+<template name="filteredProfessors">
+    
+    <div class="row">
+      <form class="filter-professors">
+        <div class="col-sm-11">
+          <select class="form-control filter-select" name="university">
+            {{#if hasSession}}
+            <option value="">En: {{university}}</option>
+            <option>Pontificia Universidad Católica de Chile</option>
+            <option>Universidad de Chile</option>
+            <option>Universidad Nacional Andrés Bello</option>
+            <option>Universidad de Los Andes</option>
+            <option>Universidad Adolfo Ibáñez</option>
+            <option>Universidad Diego Portales</option>
+            <option>Universidad Mayor</option>
+            <option>Universidad Arturo Prat</option>
+            <option>Universidad San Sebastián</option>
+            <option>Universidad Católica de La Santísima Concepción</option>
+            <option>Pontificia Universidad Católica de Valparaíso</option>
+            <option>Universidad Gabriela Mistral</option>
+            <option>Universidad Finis Terrae</option>
+            <option>Universidad del Desarrollo</option>
+            {{else}}
+            <option value="">Elige universidad</option>
+            <option>Pontificia Universidad Católica de Chile</option>
+            <option>Universidad de Chile</option>
+            <option>Universidad Nacional Andrés Bello</option>
+            <option>Universidad de Los Andes</option>
+            <option>Universidad Adolfo Ibáñez</option>
+            <option>Universidad Diego Portales</option>
+            <option>Universidad Mayor</option>
+            <option>Universidad Arturo Prat</option>
+            <option>Universidad San Sebastián</option>
+            <option>Universidad Católica de La Santísima Concepción</option>
+            <option>Pontificia Universidad Católica de Valparaíso</option>
+            <option>Universidad Gabriela Mistral</option>
+            <option>Universidad Finis Terrae</option>
+            <option>Universidad del Desarrollo</option>
+            {{/if}}
+          </select>   
+        </div>
+        <!--<div class="col-sm-3">      
+          <button type="submit" class="btn btn-success btn-mini">Filtrar</button>
+        </div>-->
+      </form>
+    </div>
+		<div class="row">
+			{{#if hasSession}}
+				<h4 class="filter-name text-center"><strong>Buscando en: {{university}}</strong></h4>
+				{{else}}
+				<h4 class="filter-name"><strong>Buscando en todas las universidades</strong></h4>
+			{{/if}}
+		</div>
+
+    <div class="row">
+      {{#if hasSession}}
+      <div class="search-input col-sm-8">
+        {{> esInput index="schoolProfessors" class="form-control" placeholder="Busca por Nombre completo o Apellido" id="searchProfessors"}}
+      </div>
+      <div class="col-sm-4">
+        <!--<h5 class="text-primary bold">En: {{university}}</h5>-->
+      <button class="btn btn-sm btn-info clear-session">Borrar Filtro</button>
+      </div>
+      {{else}}
+      <div class="search-input col-sm-11">
+        {{> esInput index="professors" class="form-control" placeholder="Busca por Nombre completo o Apellido" id="searchProfessors"}}
+      </div>
+      {{/if}}
+    </div>
+    <div class="row {{hiddeClass}}">
+      <div class="col-sm-9 col-sm-offset-1 list-group">
+        {{#esEach index="schoolProfessors" id="searchProfessors"}}
+        <div class="">
+          <div class="list-group-item">
+            <h5 class="black"><a href="/profesor/{{_id}}"><strong>{{name}}</strong></a></h5>
+            <h5 class="blue">{{department}}</h5>
+          </div>
+        </div>
+        {{/esEach}}
+        {{> esLoadMoreButton class="btn btn-sm btn-success" content="Ver más" index="schoolProfessors" id="searchProfessors"}}
+        {{#ifEsHasNoResults index="schoolProfessors" id="searchProfessors"}}
+        <div class="no-results"><h4>No hay resultados!</h4></div>
+        {{/ifEsHasNoResults}}
+        {{#ifEsIsSearching index="schoolProfessors" id="searchProfessors"}}
+        <div>Buscando...</div>
+        {{/ifEsIsSearching}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-9 col-sm-offset-1 list-group">
+        {{#esEach index="professors" id="searchProfessors"}}
+        <div class="">
+          <div class="list-group-item">
+            <h5 class="black"><a href="/profesor/{{_id}}"><strong>{{name}}</strong></a></h5>
+            <h5 class="blue">{{schoolName}}</h5>
+            <h6 class="black">{{department}}</h6>
+          </div>
+        </div>
+        {{/esEach}}      
+        {{> esLoadMoreButton class="btn btn-sm btn-success" content="Ver más" index="professors" id="searchProfessors"}}
+        {{#ifEsHasNoResults index="professors" id="searchProfessors"}}
+        <div class="no-results"><h4>No hay resultados!</h4></div>
+        {{/ifEsHasNoResults}}
+        {{#ifEsIsSearching index="professors" id="searchProfessors"}}
+        <div>Buscando...</div>
+        {{/ifEsIsSearching}}
+      </div>
+    </div>
+
+</template>
